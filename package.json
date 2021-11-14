@@ -1,6 +1,6 @@
 {
-  "name": "react-facebook-pixel",
-  "version": "1.0.4",
+  "name": "@bettercart/react-facebook-pixel",
+  "version": "2.0.0",
   "description": "Pixel Kit for React",
   "main": "dist/fb-pixel.js",
   "types": "./types/index.d.ts",
@@ -12,7 +12,7 @@
     "clean": "rm -rf node_modules",
     "prettify": "prettier --write"
   },
-  "repository": "git://github.com/zsajjad/react-facebook-pixel.git",
+  "repository": "git://github.com/bettercart/react-facebook-pixel.git",
   "keywords": [
     "react",
     "reactjs",
@@ -23,14 +23,14 @@
     "facebook-pixel"
   ],
   "author": {
-    "name": "Zain Sajjad",
-    "email": "zsajjad93@gmail.com"
+    "name": "Better Cart",
+    "email": "hello@getbettercart.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zsajjad/react-facebook-pixel/issues"
+    "url": "https://github.com/bettercart/react-facebook-pixel/issues"
   },
-  "homepage": "https://github.com/zsajjad/react-facebook-pixel",
+  "homepage": "https://github.com/bettercart/react-facebook-pixel",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.5",
