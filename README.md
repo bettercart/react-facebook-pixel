@@ -1,6 +1,6 @@
 # React Facebook Pixel
 
-[![npm](https://img.shields.io/npm/dm/react-facebook-pixel.svg)](https://www.npmjs.com/package/react-facebook-pixel)
+[![npm](https://img.shields.io/npm/@bettercart/react-facebook-pixel.svg)](https://www.npmjs.com/package/@bettercart/react-facebook-pixel)
 
 > React JS wrapper for [Facebook's Pixel](https://developers.facebook.com/docs/facebook-pixel)
 
@@ -18,14 +18,6 @@ yarn add react-facebook-pixel
 
 ```
 
-## Sponsors
-
-React Facebook Pixel is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial
-
-<a href="https://tracking.gitads.io/?repo=react-facebook-pixel" target="_blank">
- <img src="https://images.gitads.io/react-facebook-pixel" alt="GitAds"/>
-</a>
-
 ## How to use
 
 ```js
@@ -39,10 +31,10 @@ const options = {
 ReactPixel.init('yourPixelIdGoesHere', advancedMatching, options);
 
 ReactPixel.pageView(); // For tracking page view
-ReactPixel.track(event, data); // For tracking default events. More info about standard events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#standard-events
-ReactPixel.trackSingle('PixelId', event, data); // For tracking default events.
-ReactPixel.trackCustom(event, data); // For tracking custom events. More info about custom events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#custom-events
-ReactPixel.trackSingleCustom('PixelId', event, data); // For tracking custom events.
+ReactPixel.track(event, data, eventData); // For tracking default events. More info about standard events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#standard-events
+ReactPixel.trackSingle('PixelId', event, data, eventData); // For tracking default events.
+ReactPixel.trackCustom(event, data, eventData); // For tracking custom events. More info about custom events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#custom-events
+ReactPixel.trackSingleCustom('PixelId', event, data, eventData); // For tracking custom events.
 ```
 
 if you're bundling in CI
@@ -88,5 +80,3 @@ You can set IP and PORT in webpack.config.dev.js
 ```bash
 npm run bundle
 ```
-
-### Follow me on Twitter: [@zsajjad93](https://twitter.com/zsajjad93)
