@@ -1,6 +1,6 @@
 {
   "name": "@bettercart/react-facebook-pixel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Pixel Kit for React",
   "main": "dist/fb-pixel.js",
   "types": "./types/index.d.ts",
